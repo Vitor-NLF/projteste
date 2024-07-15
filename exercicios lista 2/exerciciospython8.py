@@ -1,0 +1,6 @@
+x = input("Digite qualquer coisa: ")
+y = input("\nDigite: ")
+z = input("\nDigite: ")
+print(type("x"))
+print(type("y"))
+print(type("z"))

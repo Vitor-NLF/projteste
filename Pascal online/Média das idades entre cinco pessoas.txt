@@ -1,0 +1,19 @@
+Program HelloWorld(output);
+var i1,i2,i3,i4,i5 :integer;
+var resultado :real;
+begin
+writeln('Bom dia!');
+writeln('Vamos calcular a idade entre cinco pessoas? ');
+writeln('Para isso fale a primera idade: ');
+read(i1);
+writeln('Agora a segunda idade: ');
+read(i2);
+writeln('Agora a terceira idade: ');
+read(i3);
+writeln('Agora a quarta idade: ');
+read(i4);
+writeln('E por último a quinta: ');
+read(i5);
+resultado := (i1 + i2 + i3 + i4 + i5) / 5;
+writeln('O resultado é: ',resultado);
+end.

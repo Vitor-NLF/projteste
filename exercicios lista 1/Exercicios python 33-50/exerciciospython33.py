@@ -1,0 +1,5 @@
+a = float(input("Digite o primeiro cateto: "))
+b = float(input("Digite o segundo cateto: "))
+H = (a*a) + (b*b)
+Q = H ** (1/2)
+print(f"o resultado final é: {Q}")
